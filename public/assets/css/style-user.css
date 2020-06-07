@@ -31,28 +31,19 @@
     font-family: 'yakenNumber';
     src: url('/assets/font/YekanNumber/iranyekanwebregularfanum.ttf');
 }
-body{
-    background-color:#fff;
-    font-family: 'IranSans';
-    font-size:13px;
-    text-align: right !important;
-    direction: rtl;
-}
+
 a{
     text-decoration: none !important;
     color: #757575;
 }
-.logo_top{
-    height: 57px;
-    width: 55px;
-    float: right;
+
+body{
+    /*background-color:#00a594;*/
+    font-family: 'IranSans';
+    font-size:13px;
 }
-.text_logo{
-    font-family: gothic;
-    color: #fff;
-    font-size: 25px;
-    line-height: 50px;
-    margin-right: 5px ;
+a *{
+    text-decoration: none !important;
 }
 .bg-body{
     background-color:#00a594;
@@ -191,7 +182,7 @@ a{
         top: 193px !important;
     }
     .close-register1{
-        left: -9px !important;
+        left:17px !important;
     }
     .logo11-index {
         width: 199px;
@@ -205,10 +196,10 @@ a{
     .titr-slider1{
         font-size: 45px;
     }
-/*    .btn-register{
-        margin-right: 32% !important;
+    /*    .btn-register{
+            margin-right: 32% !important;
 
-    }*/
+        }*/
 
 
     .titr-home{
@@ -296,63 +287,63 @@ input,select,button:focus {
     background-color:#d7fffc;
 }
 .img-home{
-    background-image: url(/assets/image/home-user.png);
+    background-image: url(image/home-user.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-data{
-    background-image: url(/assets/image/data.png);
+    background-image: url(image/data.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-data{
-    background-image: url(/assets/image/data.png);
+    background-image: url(image/data.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .img-shop{
-    background-image: url(/assets/image/shop.png);
+    background-image: url(image/shop.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-app{
-    background-image: url(/assets/image/app-user.png);
+    background-image: url(image/app-user.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-share{
-    background-image: url(/assets/image/img-share.png);
+    background-image: url(image/img-share.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-inbody{
-    background-image: url(/assets/image/inbody.png);
+    background-image: url(image/inbody.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-weblog{
-    background-image: url(/assets/image/img-weblog.png);
+    background-image: url(image/img-weblog.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-chanall{
-    background-image: url(/assets/image/chanall-user.png);
+    background-image: url(image/chanall-user.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-enteghad{
-    background-image: url(/assets/image/img-proposal.png);
+    background-image: url(image/img-proposal.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-instagram{
-    background-image: url(/assets/image/instagram-user.png);
+    background-image: url(image/instagram-user.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-call{
-    background-image: url(/assets/image/img-operators.png);
+    background-image: url(image/img-operators.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -373,15 +364,13 @@ input,select,button:focus {
     border-radius:7px;
 }
 .circle1-index{
-    display: block;
     position: relative;
-    margin: 0 auto 25px auto;
     width: 105px;
     height: 105px;
     border-radius: 65px;
 }
 .circle11-index{
-    background-image: url(/assets/image/circle.png);
+    background-image: url(image/circle.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -396,23 +385,23 @@ input,select,button:focus {
 }
 
 .img-gigasari{
-    background-image: url(/assets/image/img-gigasari.png);
+    background-image: url(image/img-gigasari.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color:white !important;
 }
 .tik-index{
-    background-image: url(/assets/image/tik-index.png);
+    background-image: url(image/tik-index.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .h-index{
-    background-image: url(/assets/image/h-index.png);
+    background-image: url(image/h-index.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 .smile-index{
-    background-image: url(/assets/image/smile-index.png);
+    background-image: url(image/smile-index.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -427,8 +416,8 @@ input,select,button:focus {
 
 }
 .form-color::-webkit-input-placeholder{
-    color: rgba(0, 165, 148, 0.5);
-    font-size:18px;
+    color:#00a594;
+    font-size:21px;
     text-align:right;
 }
 .btn-effect,.btn-warning-effect{
@@ -473,19 +462,14 @@ input,select,button:focus {
     top: 234px;
     color: #00a594;
 }
-/*close-register1*/
-.btn_close{
-    position: absolute;
-    left: 20px;
-    top: 16px;
-    cursor: pointer;
+.close-register1{
+    left:0px;
 }
 .c-pointer{cursor: pointer;}
 .slider-holder, .main-menu {
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-top: 25px;
 }
 .first-title {
     font-family: 'iransansbold';
@@ -507,10 +491,6 @@ input,select,button:focus {
     margin-bottom: 40px;
     width: 100%;
     font-size: 10vw;
-}
-.second-title.long-text {
-    font-size: 39px !important;
-
 }
 .first-title1 {
     font-family: 'iransansbold';
@@ -534,8 +514,8 @@ input,select,button:focus {
     font-size: 6vw;
 }
 .swiper-slide img {
-	border-radius: 45px;
-	box-shadow: 0px 5px #00a594;
+    border-radius: 45px;
+    box-shadow: 0px 5px #00a594;
 }
 .float-buttons {
     position: absolute !important;
@@ -546,11 +526,11 @@ input,select,button:focus {
 }
 .top-button span{display: none;}
 .reg-button-float, .login-button-float {
-	border: none;
-	padding: 10px;
-	border-radius: 10px;
-	width: 45%;
-	font-size: 5vw;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+    font-size: 5vw;
 }
 .login-button-float{background: #ffc600;}
 @media (min-width : 768px) {
@@ -558,37 +538,34 @@ input,select,button:focus {
 }
 @media (min-width : 992px) {
     .float-buttons {
-	position: absolute !important;
-	z-index: 10;
-	width: 50%;
-	text-align: center;
+        position: absolute !important;
+        z-index: 10;
+        width: 50%;
+        text-align: center;
     }
     .first-title, .second-title {font-size: 5vw;}
 
     .reg-button-float, .login-button-float{font-size: 2vw;}
     .top-button span {
-	display: block;
+        display: block;
     }
     .swiper-pagination{margin-top: 8% !important;}
 }
-
 @media (max-width : 991.9px) {
     .swiper-pagination{margin-top: 16% !important;}
     .slider-holder{padding-bottom: 1.5rem;}
-    .second-title.long-text{font-size: 7vw !important;}
-}
-@media (max-width : 576px) {
-    .swiper-pagination{margin-top: 15px !important;}
 }
 
 #login-index, #reg-mobile-index {
-	width: 45%;
-	font-size: 4vw;
+
+    width: 45%;
+    font-size: 4vw;
 }
 @media (min-width : 992px) {
     #login-index, #reg-mobile-index {
-	    width: 45%;
-	    font-size: 2vw;
+
+        width: 45%;
+        font-size: 2vw;
     }
 }
 .main-btn-style{
@@ -597,22 +574,21 @@ input,select,button:focus {
     border-radius: 5px;
 }
 .float-box-btn {
-	position: absolute;
-	bottom: -20px;
-	z-index: 10;
-	width: 230px;
-	margin-right: -115px;
-	padding: 10px;
-	height: 60px;
-	font-size: 23px;
-	margin-top: 10px;
-	font-weight: bold;
-	right: 50%;
-    cursor:  pointer;
+    position: absolute;
+    bottom: -20px;
+    z-index: 10;
+    width: 230px;
+    margin-right: -115px;
+    padding: 10px;
+    height: 60px;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+    right: 50%;
 }
 
 .btn-register {
-	background: url(/assets/image/icon/register.png) 10px/45px no-repeat;
+    background: url(image/icon/register.png) 10px/45px no-repeat;
 }
 @media only screen and (max-width:575.99px){
     .float-box-btn{position: relative;}
@@ -624,12 +600,10 @@ input,select,button:focus {
 .top-button {
     border-radius: 10px;
     height: 39px;
-    padding: 10px 40px 10px 6px;
+    padding: 10px 40px 10px 10px;
     display: inline-block;
-    color: #FFF !important;
+    color: #fff !important;
     position: relative;
-    cursor: pointer;
-    float: left;
 }
 .basket-link{background-color: #005d53;}
 .basket-link:before{
@@ -638,17 +612,12 @@ input,select,button:focus {
     width: 28px;
     height: 22px;
     right:10px;
-    background: url(/assets/image/saba.png) no-repeat ;
+    background: url('/assets/image/saba.png') no-repeat ;
+
 }
 .profile-link {
-    padding: 10px 35px 10px 5px;
+    padding: 10px 35px 10px 32px;
     background-color: #ffc600;
-    display: inline-flex;
-}
-.profile-link .arrow_down_button{
-    width: 14px;
-    height: 7px;
-    margin: 7px 0 0 9px;
 }
 .profile-link:before{
     content: "";
@@ -656,34 +625,34 @@ input,select,button:focus {
     width: 19px;
     height: 22px;
     right:10px;
-    background: url(/assets/image/profile1.png) no-repeat ;
+    background: url('/assets/image/profile1.png') no-repeat ;
 }
-/*.profile-link::after {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    width: 14px;*/
-/*    height: 7px;*/
-/*    left: 10px;*/
-/*    background: url(/assets/image/drop-don.png) no-repeat;*/
-/*    top: 16px;*/
-/*}*/
+.profile-link::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 7px;
+    left: 10px;
+    background: url('/assets/image/drop-don.png') no-repeat;
+    top: 16px;
+}
 .box-title {
-	font-size: 50px;
-	font-weight: bold;
+    font-size: 50px;
+    font-weight: bold;
 }
 .swiper-pagination-bullet{
     border-radius: 0px !important;
     width: 24px !important;
     height: 21px !important;
-    background: url(/assets/image/heart.png) no-repeat !important;
+    background: url(image/heart.png) no-repeat !important;
     opacity: 1 !important;
 }
-.swiper-pagination-bullet-active{background: url(/assets/image/heart-active.png) no-repeat !important;}
+.swiper-pagination-bullet-active{background: url(image/heart-active.png) no-repeat !important;}
 .swiper-pagination {
-	top: 0 !important;
-	left: 4px !important;
-	bottom: unset !important;
-	width: 24px !important;
+    top: 0 !important;
+    left: 4px !important;
+    bottom: unset !important;
+    width: 24px !important;
 }
 .slide-img {padding-left: 50px;}
 .reg-button-float, .login-button-float{
@@ -696,54 +665,9 @@ input,select,button:focus {
     box-shadow: 0px 0px 6px 2px #666a69;
 }
 .navbar-expand {
-	padding-top: 15px;
-	margin-bottom: 40px;
+    padding-top: 15px;
+    margin-bottom: 40px;
 }
-.menu-link{
-	text-align: center;
-	display: block;
-	min-width: 71px;
-	text-decoration: none;
-}
-.menu_icon{
-    display: block;
-    width: 65px;
-    height: 65px;
-    border-radius: 100px;
-    background-color: #00a594;
-    position: relative;
-    margin: auto;
-}
-
-.menu_icon:hover{text-decoration: none;}
-.nav-home::before{background-image: url(/assets/image/icon/menu/homepage.svg);}
-.nav-question::before{background-image: url(/assets/image/icon/menu/questions.svg);}
-.nav-about::before{background-image: url(/assets/image/icon/menu/about.svg);}
-.nav-app::before{background-image: url(/assets/image/icon/menu/android.svg);}
-.nav-blog::before{background-image: url(/assets/image/icon/menu/weblog.svg);}
-.nav-channel::before{background-image: url(/assets/image/icon/menu/telegram.svg);}
-.nav-contact::before{background-image: url(/assets/image/icon/menu/contactUs.svg);}
-.nav-inbody::before{background-image: url(/assets/image/icon/menu/inbody.png);}
-.nav-insta::before{background-image: url(/assets/image/icon/menu/instagram.svg);}
-.nav-share::before{background-image: url(/assets/image/icon/menu/subscription.svg);}
-.nav-shop::before{background-image: url(/assets/image/icon/menu/shop.svg);}
-.nav-vote::before{background-image: url(/assets/image/icon/menu/vote.svg);}
-
-
-.menu_icon:hover{text-decoration: none;}
-.active.nav-home::before{background-image: url(/assets/image/icon/menu/homepage-active.svg);}
-.nav-question.active::before{background-image: url(/assets/image/icon/menu/questions-active.svg);}
-.nav-about.active::before{background-image: url(/assets/image/icon/menu/about-active.svg);}
-.nav-app.active::before{background-image: url(/assets/image/icon/menu/android-active.svg);}
-.nav-blog.active::before{background-image: url(/assets/image/icon/menu/weblog-active.svg);}
-.nav-channel.active::before{background-image: url(/assets/image/icon/menu/telegram-active.svg);}
-.nav-contact.active::before{background-image: url(/assets/image/icon/menu/contactUs-active.svg);}
-.nav-inbody.active::before{background-image: url(/assets/image/icon/menu/inbody-active.png);}
-.nav-insta.active::before{background-image: url(/assets/image/icon/menu/instagram-active.svg);}
-.nav-share.active::before{background-image: url(/assets/image/icon/menu/subscription-active.svg);}
-.nav-shop.active::before{background-image: url(/assets/image/icon/menu/shop-active.svg);}
-.nav-vote.active::before{background-image: url(/assets/image/icon/menu/vote-active.svg);}
-
 .menu-link::before {
     content: "";
     width: 71px;
@@ -752,319 +676,51 @@ input,select,button:focus {
     margin-bottom: 4px;
     margin-left: auto;
     margin-right: auto;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
 }
-.menu_icon::after{
-    content: "";
+.menu-link {
+    text-align: center;
     display: block;
-    width: 65px;
-    height: 65px;
-    border-radius: 100px;
-    background-color: #f5f4f4;
-    position: absolute;
-    top: 0;
-    right: 3px;
-    z-index: 1;
+    min-width: 71px;
+    text-decoration: none;
 }
-.menu_icon.active::after{
-    background-color: #ffc600;
-}
-.menu_icon::before {
-    content: "";
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin-bottom: 4px;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(calc(-50% - 3px) , -50%);
-    z-index: 2;
-}
+.menu-link:hover{text-decoration: none;}
+.nav-home:before{background: url(image/icon/home.png) no-repeat;}
+.nav-about:before{background: url(image/icon/about.png) no-repeat;}
+.nav-app:before{background: url(image/icon/app.png) no-repeat;}
+.nav-blog:before{background: url(image/icon/blog.png) no-repeat;}
+.nav-channel:before{background: url(image/icon/channel.png) no-repeat;}
+.nav-contact:before{background: url(image/icon/contact.png) no-repeat;}
+.nav-inbody:before{background: url(image/icon/inbody.png) no-repeat;}
+.nav-insta:before{background: url(image/icon/insta.png) no-repeat;}
+.nav-share:before{background: url(image/icon/share.png) no-repeat;}
+.nav-shop:before{background: url(image/icon/shop.png) no-repeat;}
+.nav-vote:before{background: url(image/icon/vote.png) no-repeat;}
 .profile-menu {
-	list-style: none;
-	position: absolute;
-	right: 0;
-	width: 100%;
-	text-align: right;
-	top: 50px;
-	background: #fff;
-	padding: 10px;
-	z-index: 10;
-	border-radius: 5px;
-    box-shadow: 1px 1px 10px #00000029;
-}
-.profile-menu::after {
-	content: "";
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 5px 10px 5px;
-    border-color: transparent transparent #fff transparent;
-
-}
-.logo11-index {
-	width: 50%;
-}
-.custom-input {
-	border: none;
-	font-size: 17px;
-	color: #00a594;
-}
-.custom-btn {
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-}
-
-
-
-/*  ==================   New Style  =================  */
-.social-network{
-    text-align: center;
-}
-.social-network-item{
-    color: #fff !important;
-    text-decoration: none !important;
-    display: inline-flex;
-    margin: 0 5px;
-    line-height: 31px;
-    cursor: pointer;
-    padding: 3px 0;
-    border-radius: 100px;
-}
-@media (max-width: 576px) {
-    .social-network-item{
-        border: none;
-    }
-    .icon-social-network{
-        margin-left: 0 !important;
-        height: 18px;
-    }
-    .bg-icon{
-        width: 38px;
-        height: 38px;
-        background-color: #ffffff42;
-        padding: 4px;
-        border-radius: 50px;
-    }
-}
-.icon-social-network{
-    margin-left: 2px;
-    height: 21px;
-}
-.about-title{
-    display: inline-block;
-    font-size: 45px;
-    font-weight: bold;
-    font-family: iransansbold;
-}
-#about .icon-about{
-    width: 120px;
-    height: 120px;
-    float: left;
-}
-#about .founder{
-    background-color: #d6fffb;
-    border-radius: 12px;
-    min-height: 100px;
-    position: relative;
-    margin-top: 80px;
-    padding: 15px 25px 25px 25px;
-    width: 100%;
-}
-#about #primary .personal{
-    background-color: #dfdfdf;
-    border-radius: 12px;
-    position: relative;
-    margin-top: 95px;
-    padding: 15px 25px 15px 25px;
-    width: 100%;
-}
-
-#about .founder .title-jobPost,#about .personal .title-jobPost{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: iransansbold;
-}
-
-@media (max-width: 576px){
-    #about .founder{
-        padding-top: 80px !important;
-    }
-    #about .personal{
-        padding-top: 80px !important;
-    }
-    .top-text{
-        text-align: center;
-    }
-    #about .founder .email-personal,#about .personal .email-personal{
-        float: none !important;
-    }
-    #about .icon-about{
-        float: none;
-    }
-    .about-title{
-        font-size: 23px;
-    }
-}
-#about .founder .email-personal,#about .personal .email-personal{
-    font-size: 18px;
-    color: #626161;
-    font-family: "gothic";
-    float: left;
-}
-#about .founder .personal-description{
-    color: #00a594;
-    font-size: 16px;
-    display: block;
-    text-align: justify;
-}
-#about .founder .image-personal ,#about .personal .image-personal{
-    border-radius: 100px;
-    /*border: 6px solid #00a594;*/
-    position: absolute;
-    left: 50%;
-    top: -57px;
-    transform: translate(-50%,0);
-    width: 120px;
-    height: 120px;
-}
-
-
-
-
-/* ===============  Start Slider Other Persomal  ================*/
-
-.title_bold_yellow{
-    font-family: iransansbold;
-    font-size: 25px;
-    display: inline-block;
-    margin: auto;
-    border-bottom: 3px dotted #ffc107;
-    font-weight: bold;
-    color: #ffc104;
-    padding-bottom: 4px;
-}
-#about .swiper-slide .other-personal{
-    background-color: #007d70 !important;
-    min-height: 150px;
-    border-radius: 8px;
-    padding: 10px;
-    position: relative;
-}
-#about .swiper-slide .other-personal:last-child{
-    margin-top: 100px;
-}
-#about .other-personal .title-location{
-    font-size: 20px;
-    color: #ffc107;
-    text-align: center;
-    display: block;
-    margin-top: 60px;
-    font-width: bold;
-}
-#about .other-personal .title-name{
-    font-size: 16px;
-    text-align: center;
-    margin: 15px auto;
-    display: block;
-    font-width: bold;
-    color: #fff;
-}
-#about .other-personal .title-tel{
-    font-size: 20px;
-    text-align: center;
-    font-family: yakenNumber;
-    display: block;
-    font-width: bold;
-    color: #fff;
-    position: relative;
-}
-#about .other-personal .title-tel i{
-    color: #fff;
-    font-size: 15px;
-    margin-left: 10px;
-}
-#about .other-personal .image-personal{
-    border-radius: 100px;
-    /*border: 6px solid #00a594;*/
-    position: absolute;
-    left: 50%;
-    top: -80px;
-    transform: translate(-50%,0);
-    width: 120px;
-    height: 120px;
-    box-shadow: none !important;
-}
-#slider-personal{
-    padding: 120px 60px 0 60px;
-    position: relative;
-}
-#slider-personal .swiper-wrapper{
-    padding-bottom: 10px;
-}
-/*#slider-personal::after{
-    content: "";
-    width: 50px;
-    height: 100%;
-    background-color: #fff;
+    list-style: none;
     position: absolute;
     right: 0;
-    top: 0;
-    z-index: 1;
-    !*box-shadow: 0 -2px 11px #dbd8d8;*!
-}*/
-/*#slider-personal::before{
-    content: "";
-    width: 50px;
-    height: 100%;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    !*box-shadow: 0 2px 11px #dbd8d8;*!
-}*/
-@media (max-width: 576px){
+    width: 100%;
+    text-align: right;
+    top: 40px;
+    background: #CCC;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 5px;
+}
+.logo11-index {
+    width: 50%;
+}
+.custom-input {
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00a594;
+}
+.custom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
 
-    #slider-personal{
-        padding-top: 70px;
-    }
-    #about .other-personal .image-personal{
-        width: 60px;
-        height: 60px;
-        top: -30px;
-    }
-    #about .other-personal .title-location{
-        margin-top: 30px;
-    }
-    #about .swiper-slide .other-personal:last-child{
-        margin-top: 80px;
-    }
-}
-/* ===============  End Slider Other Persomal  ================*/
 
-#rememberMe{
-    display: inline-block;
-    float: left;
-    color: #fff;
-    margin: 5px;
-    line-height: 29px;
-}
-#rememberMe input[type=checkbox] {
-    border: 1px solid #eee;
-    border-radius: 7px;
-    height: 18px;
-    width: 18px;
-    margin: 5px 0 0 5px;
-    float: right;
-}
+

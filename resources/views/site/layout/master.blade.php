@@ -17,11 +17,11 @@
     <meta property="og:url" content="gigasar.ir">
     <meta property="og:type" content="website">
     <meta name="enamad" content="130953"/>
-    <title></title>
+    <title>گیگاسر | @yield('title')</title>
 
 
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/style-user.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/swiper-5.4.1.min.css" rel="stylesheet">
     <link href="/assets/font/fontawesome/css/all.min.css" rel="stylesheet">
 </head>

@@ -1,4 +1,5 @@
 @extends('site.layout.master')
+@section('title','صفحه اصلی')
 @section('content')
 
 
